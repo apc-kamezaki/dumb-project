@@ -3,5 +3,8 @@
     "compilerOptions": {
         "types": ["jest"]
     },
-    "exclude": []
+    "include": [
+        "src/**/*.spec.ts",
+        "**/__mocks__/*.ts"
+    ]
 }
